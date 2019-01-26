@@ -1,3 +1,1 @@
-This project will outline the process to create a simple stream processing via AWS services like API Gateway, Lambda, Kinesis Firehose, S3 and Athena.
-The scripts are maintained in a chronological order and explanations, including how to setup the streaming pipeline are discussed in succinct manner 
-to get project running up and fast. 
+This project will outline the process to create a simple stream processing via AWS services like API Gateway, Lambda, Kinesis Firehose, S3 and Athena.The scripts are maintained in a chronological order and explanations including how to setup the streaming pipeline are discussed in succinct manner to get project running up and fast. 
