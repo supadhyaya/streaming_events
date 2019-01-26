@@ -1,6 +1,8 @@
 
 ''' 
 Following snippet shows how events can be stored into persistance layer and how formats of data can be changed.
+Below will parse the events, do some transformation and store the data in csv and parquet format into s3. Persistance
+layer can always be changed as per need.
 '''
 
 import boto3
