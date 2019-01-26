@@ -36,7 +36,7 @@ def lambda_handler(event, context):
     
     # below for loop is changed as per business transformation needs.
     for line in lines:
-        df1 = pd.DataFrame({'sensor_data' : 123TEST})
+        df1 = pd.DataFrame({'sensor_data' : 123})
         df = df.append(df1)
 
     client = boto3.resource('s3')
