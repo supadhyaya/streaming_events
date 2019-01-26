@@ -1,0 +1,6 @@
+1. The process to create a kinesis firehose is pretty much straight forward and takes less than 5 minutes to setup through 
+AWS Dashboard. Open up the AWS dashboard and go to Kinesis Firehose section and create a stream with some resonable naming. 
+For the sake of rapid development, streams do not need to retain data for more than 24 hours, and partitions and sharding 
+in the stream could be skipped. 
+
+
