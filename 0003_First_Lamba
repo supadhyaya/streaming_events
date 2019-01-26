@@ -1,5 +1,5 @@
 ''' Following is a snippet of a simple lambda which will be attached to the API Gateway (in script 0001_*, it was referred as
-a dummy lambda. Lambda will listen to any events posted to the endpoint and once the lambda notices payload in the endpoint, 
+a dummy lambda). Lambda will listen to any events posted to the endpoint and once the lambda notices payload in the endpoint, 
 the payload will be parsed and pushed into the kinesis stream.'''
 
 import json
