@@ -1,0 +1,11 @@
+A terraform script could be created for creating an API_Gateway in AWS but for the sake of the simplicity, I will outline 
+only the process to setup API Gateway from AWS dashboard.
+
+STEPS:
+1. Open up the AWS dashboard and go to the API Gateway section. Create an API Gateway and expose an endpoint for the POST request.
+2. Details can be found here: https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-create-api.html
+3. Once the API Gateway is setup, integration section of the API Gateway needs some adjustments. Please follow the following:
+   a. Attach the API Gateway to a dummy lambda function.
+   b. Attach a application/json template which parses the body of the event when POST payload is sent to the API Gateway.
+   c. Adjust the authentication processe as per need.
+   
